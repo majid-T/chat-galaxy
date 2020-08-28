@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Universe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="home.css" >
+
+</head>
+<body>
+  <body>
+
+    <main role="main" class="container">
+        <div class="card">
+
+          <img class="topImg" src="media/mainLogo.png" alt="Logo by https://logomakr.com/">
+          <h2>Welcome to our chat space</h2>
+          <p>What is your nickname</p>
+          <input type="text" name="nickname" id="nickname" placeholder="what should we call you...">
+
+          <div class="avChoices">
+            <img class="avatar" src="media/av1.png" alt="Logo by https://logomakr.com/" id="av1">
+            <img class="avatar" src="media/av2.png" alt="Logo by https://logomakr.com/" id="av2">
+            <img class="avatar" src="media/av3.png" alt="Logo by https://logomakr.com/" id="av3">
+            <img class="avatar" src="media/av4.png" alt="Logo by https://logomakr.com/" id="av4">
+            <img class="avatar" src="media/av5.png" alt="Logo by https://logomakr.com/"id="av5">
+            <img class="avatar" src="media/av6.png" alt="Logo by https://logomakr.com/" id="av6">
+          </div>
+
+          <p id="guideNote">Click on an avator you like to start Chating &rarr;</p>
+        </div>
+        <p class="theWarning"></p>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+</body>
+</html>

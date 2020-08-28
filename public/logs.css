@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #509eff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+}
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+p.logItem {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 2vh;
+    font-family: sans-serif;
+    padding: 1vh;
+}
+
+.logItem:nth-child(even) {
+    background-color: #81DAF5;
+    border-box:5px;
+}
+
+.logItem:nth-child(odd) {
+    background-color: #81BEF7;
+    border-box:5px;
+}
+
+header{
+    margin-top:60px;
+    text-align: center;
+}
+
+header .logLin{
+    margin:10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+header #guideNote{
+    font-size: 0.9em;
+    position: relative;
+    opacity: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header:hover #guideNote{
+    opacity: 1;
+    transition: 250ms ease;
+}
+
+.logLink{
+  cursor: pointer;
+}
